@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.email         = 'edvards@lazdans.lv'
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.require_paths = ["lib"]
-  spec.homepage      = 'http://rubygems.org/gems/user_stylesheet'
+  spec.homepage      = 'https://github.com/GuskiS/user_stylesheet'
   spec.license       = 'MIT'
 
   spec.add_development_dependency 'bundler', '~> 1.5'
