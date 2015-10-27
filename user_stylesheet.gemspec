@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'user_stylesheet'
-  spec.version       = '0.0.3'
+  spec.version       = '0.0.4'
   spec.date          = '2015-10-27'
   spec.summary       = 'Dynamic user stylesheets'
   spec.description   = 'Dynamic user stylesheets'

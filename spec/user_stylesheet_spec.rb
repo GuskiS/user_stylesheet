@@ -27,7 +27,7 @@ describe UserStylesheet do
   it 'compiles scss to css' do
     sheet = UserStylesheet.new(default_params)
     file = sheet.compile
-    expect(file.read).to eq(".container{background-color:red}.user-name{color:#fff;font-size:30px}\n")
+    expect(file.read).to eq(".container{background-color:red}.user-name{color:white;font-size:30px}\n")
   end
 
 
