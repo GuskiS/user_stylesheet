@@ -3,7 +3,7 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = 'UserStylesheet'
+  spec.name          = 'user_stylesheet'
   spec.version       = '0.0.2'
   spec.date          = '2015-10-27'
   spec.summary       = 'Dynamic user stylesheets'
